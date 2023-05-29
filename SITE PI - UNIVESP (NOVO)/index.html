@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website html css e javascript</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header style="background-image: url('img/background-home.png');">
+        <!-- container -->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a class="btn animate-btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Protetores de Animais</h1>
+                    <p>Ajude a salvar um animal de estimação!</p>
+                    <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+        <!-- end container -->
+    </header>
+    <!-- end header -->
+    <!-- faca mais -->
+    <section class="faca-mais">
+        <!-- container -->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Conheça nossos produtos artesanais</h3>
+                <p>
+                    Produtos artesanais feitos com muito amor e carinho.
+                <p>Comprando você ajuda a cuidar dos nossos bichinhos.</p>
+                </p>
+                <a href="contato.html" class="btn animate-btn"> Entrar em contato</a>
+            </div>
+            <div class="faca-mais-img">
+                <img src="img/img-1.png" alt="">
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end faca mais -->
+    <!-- faca mais 2 -->
+    <section class="faca-mais">
+        <!-- container -->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="img/img-2.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>
+                    Faça sua doação agora!
+                </h3>
+                <p>
+                    Salve um animal de estimação.
+                    Apoie um pet em necessidade, apoie um animal que precisa de sua ajuda.
+                    Salve um pet, doe! Patrocine um animal, doe! Sua doação salva um pet. Salve uma vida pet.
+                </p>
+                <a href="contato.html" class="btn animate-btn"> Entrar em contato</a>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end faca mais 2 -->
+    <!-- depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Conheça Alguns dos Nossos Amiguinhos</h3>
+            <p>Somos alguns dos bichinhos a procura de um lar</p>
+            <div class="cards">
+                <!-- card item 1 -->
+                <div class="card-item">
+                    <img src="img/me1.png" alt="Amendoim">
+                    <p class="nome-user">Amendoim</p>
+                    <p class="depoimento-user">
+                        Sou um caramelo charmoso de aproximadamente 5 anos de idade.
+                        Carinhoso, brincalhão, cheio de energia e adoro ser companheiro.
+                        Tenho certeza que existe um espaço na sua casa perfeito pra minha caminha.
+                        Adoraria fazer parte da sua família.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- end card item 1 -->
+                <!-- card item 2 -->
+                <div class="card-item">
+                    <img src="img/me2.png" alt="Clara">
+                    <p class="nome-user">Clara</p>
+                    <p class="depoimento-user">
+                        Tenho cerca de 2 anos em idade canina, mas se fosse humana, teria a experiência
+                        de vida de uma pessoa de 24 anos. Sabe o que isso quer dizer? Que estou pronta
+                        para aceitar qualquer desafio que possa existir e que sou a companheira perfeita
+                        para você. Estou pronta pra cuidar de você.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- end card item 2 -->
+                <!-- card item 3 -->
+                <div class="card-item">
+                    <img src="img/me3.png" alt="Ted">
+                    <p class="nome-user">Ted</p>
+                    <p class="depoimento-user">
+                        Vira-lata só na raça, mas prometo comer só no meu potinho de ração.
+                        Sou muito bonzinho e adoro brincar com uma bolinha.
+                        Estou pronto para fazer parte de uma família, pois
+                        sou muito brincalhão e sei que você tem muito carinho a oferecer.
+                        Estou esperando por você!
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <!-- end card item 3 -->
+            </div>
+        </div>
+    </section>
+    <!-- end depoimentos -->
+    <!-- Parceiros -->
+    <section class="clientes">
+        <div class="container">
+            <h3>Nossos Parceiros</h3>
+            <p>Esses são alguns dos parceiros que ajudam a manter nossa causa</p>
+            <div>
+                <!--<img src="img/apple.png" alt="">
+                <img src="img/microsoft.png" alt="">
+                <img src="img/slack.png" alt="">-->
+                <img src="img/cocipa.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end clientes -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://pt-br.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"> <i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/" target="_blank"> <i class="fa fa-github"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Leonardo H. do Nascimento</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
